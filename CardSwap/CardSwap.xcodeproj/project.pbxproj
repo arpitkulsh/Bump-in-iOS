@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047F88BB153C4E0D007CDD2B /* SelectInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047F88B9153C4E0D007CDD2B /* SelectInfoController.m */; };
+		047F88BC153C4E0D007CDD2B /* SelectInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047F88BA153C4E0D007CDD2B /* SelectInfoController.xib */; };
+		04815586153EB80E009A2A4D /* drop-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 04815585153EB80E009A2A4D /* drop-down.png */; };
+		048155C1153EDD29009A2A4D /* btn_darkblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 048155C0153EDD29009A2A4D /* btn_darkblue.png */; };
+		048155C3153EDD2E009A2A4D /* btn_lightBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 048155C2153EDD2E009A2A4D /* btn_lightBlue.png */; };
+		0484FD911511E256003741BC /* CustomCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484FD901511E256003741BC /* CustomCellView.m */; };
+		04899BB815345AA100339335 /* ColorSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04899BB315345AA100339335 /* ColorSwatchView.m */; };
+		04899BB915345AA100339335 /* ColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04899BB515345AA100339335 /* ColorPickerView.m */; };
+		04899BBA15345AA100339335 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04899BB715345AA100339335 /* GradientView.m */; };
+		04899BBF15345AC700339335 /* UIColor-HSVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04899BBB15345AC600339335 /* UIColor-HSVAdditions.m */; };
+		04899BC015345AC700339335 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 04899BBE15345AC700339335 /* UIColor-Expanded.m */; };
+		04899BC415345AF000339335 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04899BC215345AF000339335 /* ColorPickerViewController.m */; };
+		04899BC515345AF000339335 /* ColorPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04899BC315345AF000339335 /* ColorPickerViewController.xib */; };
+		04899BCA15345B3E00339335 /* bar_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 04899BC715345B3E00339335 /* bar_select.png */; };
+		04899BCB15345B3E00339335 /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 04899BC815345B3E00339335 /* crosshair.png */; };
+		04899BCC15345B3E00339335 /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 04899BC915345B3E00339335 /* colormap.png */; };
+		04899C1E153465DF00339335 /* btn_pickcolor_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 04899C1C153465DF00339335 /* btn_pickcolor_cancel.png */; };
+		04899C1F153465DF00339335 /* btn_pickcolor_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 04899C1D153465DF00339335 /* btn_pickcolor_select.png */; };
+		04899C981534700700339335 /* CardsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 04899C971534700700339335 /* CardsDetails.m */; };
+		048CB893153D8E5000A35791 /* DragImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB892153D8E5000A35791 /* DragImageView.m */; };
+		048CB8A9153D958A00A35791 /* SetInfoPropertiesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB8A7153D958A00A35791 /* SetInfoPropertiesController.m */; };
+		048CB8AA153D958A00A35791 /* SetInfoPropertiesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048CB8A8153D958A00A35791 /* SetInfoPropertiesController.xib */; };
+		048CB8BF153D9D6600A35791 /* PropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB8BD153D9D6600A35791 /* PropertiesViewController.m */; };
+		048CB8C0153D9D6600A35791 /* PropertiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048CB8BE153D9D6600A35791 /* PropertiesViewController.xib */; };
+		048CB907153DA7A300A35791 /* FontSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048CB905153DA7A300A35791 /* FontSelectionController.m */; };
+		048CB908153DA7A300A35791 /* FontSelectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048CB906153DA7A300A35791 /* FontSelectionController.xib */; };
+		048D2B6A15107B3D009ABE03 /* EditCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048D2B6915107B3D009ABE03 /* EditCardViewController.m */; };
+		048D2B6D15107B61009ABE03 /* EditCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048D2B6C15107B61009ABE03 /* EditCardViewController.xib */; };
+		048D2C7015109124009ABE03 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048D2C6E15109124009ABE03 /* HomeViewController.m */; };
+		048D2C7115109124009ABE03 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048D2C6F15109124009ABE03 /* HomeViewController.xib */; };
+		048D2CBA151093B5009ABE03 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048D2CB9151093B5009ABE03 /* AudioToolbox.framework */; };
+		048D2CBE151093D2009ABE03 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048D2CBD151093D2009ABE03 /* QuartzCore.framework */; };
+		048D2CE0151093FF009ABE03 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 048D2CDF151093FF009ABE03 /* libsqlite3.dylib */; };
+		048D2D18151095FF009ABE03 /* BumpAPIAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 048D2D12151095F4009ABE03 /* BumpAPIAssets.bundle */; };
+		048D2D19151095FF009ABE03 /* libBumpAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 048D2D15151095FF009ABE03 /* libBumpAPI.a */; };
+		048D2D1A151095FF009ABE03 /* Localization-ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 048D2D17151095FF009ABE03 /* Localization-ReadMe.txt */; };
+		048D2D3D1510978C009ABE03 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048D2D3C1510978C009ABE03 /* CoreLocation.framework */; };
+		048D2D711510A4F5009ABE03 /* ViewCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048D2D6F1510A4F5009ABE03 /* ViewCardViewController.m */; };
+		048D2D721510A4F5009ABE03 /* ViewCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048D2D701510A4F5009ABE03 /* ViewCardViewController.xib */; };
+		048D2EA01510D25F009ABE03 /* button_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 048D2E9F1510D25F009ABE03 /* button_black.png */; };
+		048E3C9A153FD55E0008C379 /* CustomSaveClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E3C99153FD55E0008C379 /* CustomSaveClass.m */; };
+		048EBC091536A8170035C895 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EBC061536A8170035C895 /* UIImage+Alpha.m */; };
+		048EBC0A1536A8170035C895 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EBC081536A8170035C895 /* UIImage+Resize.m */; };
+		048EBC0D1536AF4D0035C895 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 048EBC0C1536AF4D0035C895 /* UIImage+RoundedCorner.m */; };
+		049235D8152EFBD9008E2E33 /* EditViewPositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049235D6152EFBD9008E2E33 /* EditViewPositionController.m */; };
+		049235D9152EFBD9008E2E33 /* EditViewPositionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049235D7152EFBD9008E2E33 /* EditViewPositionController.xib */; };
+		049E281C1540240200BCCDE4 /* img_bgFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = 049E281B1540240200BCCDE4 /* img_bgFrame.png */; };
+		049E28611540386800BCCDE4 /* button_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 049E28601540386800BCCDE4 /* button_arrow.png */; };
+		04B27FDA1537075000B6C840 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B27FD91537075000B6C840 /* MobileCoreServices.framework */; };
+		04CFF4B615248B6800C04874 /* DragLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFF4B515248B6800C04874 /* DragLabel.m */; };
+		1D3623260D0F684500981E51 /* CardSwapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CardSwapAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* CardSwap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* CardSwap.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		047F88B8153C4E0D007CDD2B /* SelectInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectInfoController.h; sourceTree = "<group>"; };
+		047F88B9153C4E0D007CDD2B /* SelectInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectInfoController.m; sourceTree = "<group>"; };
+		047F88BA153C4E0D007CDD2B /* SelectInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectInfoController.xib; sourceTree = "<group>"; };
+		04815585153EB80E009A2A4D /* drop-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "drop-down.png"; sourceTree = "<group>"; };
+		048155C0153EDD29009A2A4D /* btn_darkblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_darkblue.png; sourceTree = "<group>"; };
+		048155C2153EDD2E009A2A4D /* btn_lightBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_lightBlue.png; sourceTree = "<group>"; };
+		0484FD8F1511E256003741BC /* CustomCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellView.h; sourceTree = "<group>"; };
+		0484FD901511E256003741BC /* CustomCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellView.m; sourceTree = "<group>"; };
+		04899BB215345AA100339335 /* ColorSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSwatchView.h; sourceTree = "<group>"; };
+		04899BB315345AA100339335 /* ColorSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSwatchView.m; sourceTree = "<group>"; };
+		04899BB415345AA100339335 /* ColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerView.h; sourceTree = "<group>"; };
+		04899BB515345AA100339335 /* ColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerView.m; sourceTree = "<group>"; };
+		04899BB615345AA100339335 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		04899BB715345AA100339335 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		04899BBB15345AC600339335 /* UIColor-HSVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-HSVAdditions.m"; sourceTree = "<group>"; };
+		04899BBC15345AC700339335 /* UIColor-HSVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-HSVAdditions.h"; sourceTree = "<group>"; };
+		04899BBD15345AC700339335 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		04899BBE15345AC700339335 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		04899BC115345AF000339335 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		04899BC215345AF000339335 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
+		04899BC315345AF000339335 /* ColorPickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorPickerViewController.xib; sourceTree = "<group>"; };
+		04899BC715345B3E00339335 /* bar_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_select.png; sourceTree = "<group>"; };
+		04899BC815345B3E00339335 /* crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair.png; sourceTree = "<group>"; };
+		04899BC915345B3E00339335 /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colormap.png; sourceTree = "<group>"; };
+		04899BE6153462C900339335 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		04899C1C153465DF00339335 /* btn_pickcolor_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pickcolor_cancel.png; sourceTree = "<group>"; };
+		04899C1D153465DF00339335 /* btn_pickcolor_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pickcolor_select.png; sourceTree = "<group>"; };
+		04899C961534700700339335 /* CardsDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardsDetails.h; path = Classes/CardsDetails.h; sourceTree = "<group>"; };
+		04899C971534700700339335 /* CardsDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardsDetails.m; path = Classes/CardsDetails.m; sourceTree = "<group>"; };
+		048CB891153D8E5000A35791 /* DragImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragImageView.h; sourceTree = "<group>"; };
+		048CB892153D8E5000A35791 /* DragImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragImageView.m; sourceTree = "<group>"; };
+		048CB8A6153D958A00A35791 /* SetInfoPropertiesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetInfoPropertiesController.h; sourceTree = "<group>"; };
+		048CB8A7153D958A00A35791 /* SetInfoPropertiesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetInfoPropertiesController.m; sourceTree = "<group>"; };
+		048CB8A8153D958A00A35791 /* SetInfoPropertiesController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetInfoPropertiesController.xib; sourceTree = "<group>"; };
+		048CB8BC153D9D6600A35791 /* PropertiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertiesViewController.h; sourceTree = "<group>"; };
+		048CB8BD153D9D6600A35791 /* PropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertiesViewController.m; sourceTree = "<group>"; };
+		048CB8BE153D9D6600A35791 /* PropertiesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PropertiesViewController.xib; sourceTree = "<group>"; };
+		048CB904153DA7A300A35791 /* FontSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSelectionController.h; sourceTree = "<group>"; };
+		048CB905153DA7A300A35791 /* FontSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSelectionController.m; sourceTree = "<group>"; };
+		048CB906153DA7A300A35791 /* FontSelectionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FontSelectionController.xib; sourceTree = "<group>"; };
+		048D2B6815107B3D009ABE03 /* EditCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCardViewController.h; sourceTree = "<group>"; };
+		048D2B6915107B3D009ABE03 /* EditCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCardViewController.m; sourceTree = "<group>"; };
+		048D2B6C15107B61009ABE03 /* EditCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditCardViewController.xib; sourceTree = "<group>"; };
+		048D2C6D15109124009ABE03 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		048D2C6E15109124009ABE03 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		048D2C6F15109124009ABE03 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeViewController.xib; path = Classes/HomeViewController.xib; sourceTree = "<group>"; };
+		048D2CB9151093B5009ABE03 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		048D2CBD151093D2009ABE03 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		048D2CDF151093FF009ABE03 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		048D2D11151095F4009ABE03 /* BumpAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BumpAPI.h; sourceTree = "<group>"; };
+		048D2D12151095F4009ABE03 /* BumpAPIAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BumpAPIAssets.bundle; sourceTree = "<group>"; };
+		048D2D13151095F4009ABE03 /* BumpAPICustomUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BumpAPICustomUI.h; sourceTree = "<group>"; };
+		048D2D14151095F4009ABE03 /* Bumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bumper.h; sourceTree = "<group>"; };
+		048D2D15151095FF009ABE03 /* libBumpAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBumpAPI.a; sourceTree = "<group>"; };
+		048D2D17151095FF009ABE03 /* Localization-ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Localization-ReadMe.txt"; sourceTree = "<group>"; };
+		048D2D3C1510978C009ABE03 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		048D2D6E1510A4F5009ABE03 /* ViewCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCardViewController.h; sourceTree = "<group>"; };
+		048D2D6F1510A4F5009ABE03 /* ViewCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCardViewController.m; sourceTree = "<group>"; };
+		048D2D701510A4F5009ABE03 /* ViewCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewCardViewController.xib; path = Classes/ViewCardViewController.xib; sourceTree = "<group>"; };
+		048D2E9F1510D25F009ABE03 /* button_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_black.png; sourceTree = "<group>"; };
+		048E3C98153FD55E0008C379 /* CustomSaveClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSaveClass.h; sourceTree = "<group>"; };
+		048E3C99153FD55E0008C379 /* CustomSaveClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSaveClass.m; sourceTree = "<group>"; };
+		048EBC051536A8170035C895 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		048EBC061536A8170035C895 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		048EBC071536A8170035C895 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		048EBC081536A8170035C895 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		048EBC0B1536AF4D0035C895 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		048EBC0C1536AF4D0035C895 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		049235D5152EFBD9008E2E33 /* EditViewPositionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewPositionController.h; sourceTree = "<group>"; };
+		049235D6152EFBD9008E2E33 /* EditViewPositionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewPositionController.m; sourceTree = "<group>"; };
+		049235D7152EFBD9008E2E33 /* EditViewPositionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditViewPositionController.xib; sourceTree = "<group>"; };
+		049E281B1540240200BCCDE4 /* img_bgFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_bgFrame.png; sourceTree = "<group>"; };
+		049E28601540386800BCCDE4 /* button_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_arrow.png; sourceTree = "<group>"; };
+		04B27FD91537075000B6C840 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		04CFF4B415248B6800C04874 /* DragLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragLabel.h; sourceTree = "<group>"; };
+		04CFF4B515248B6800C04874 /* DragLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragLabel.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CardSwapAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSwapAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CardSwapAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSwapAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CardSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* CardSwap.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = CardSwap.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CardSwap_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSwap_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CardSwap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CardSwap-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				048D2CBA151093B5009ABE03 /* AudioToolbox.framework in Frameworks */,
+				048D2CBE151093D2009ABE03 /* QuartzCore.framework in Frameworks */,
+				048D2CE0151093FF009ABE03 /* libsqlite3.dylib in Frameworks */,
+				048D2D19151095FF009ABE03 /* libBumpAPI.a in Frameworks */,
+				048D2D3D1510978C009ABE03 /* CoreLocation.framework in Frameworks */,
+				04B27FDA1537075000B6C840 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04832DA3153D60C700AADD2E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				048E3C98153FD55E0008C379 /* CustomSaveClass.h */,
+				048E3C99153FD55E0008C379 /* CustomSaveClass.m */,
+				04CFF4B415248B6800C04874 /* DragLabel.h */,
+				04CFF4B515248B6800C04874 /* DragLabel.m */,
+				048CB891153D8E5000A35791 /* DragImageView.h */,
+				048CB892153D8E5000A35791 /* DragImageView.m */,
+				0484FD8F1511E256003741BC /* CustomCellView.h */,
+				0484FD901511E256003741BC /* CustomCellView.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		04899B9B1534527D00339335 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				04899BE6153462C900339335 /* Constants.h */,
+				04899BBB15345AC600339335 /* UIColor-HSVAdditions.m */,
+				04899BBC15345AC700339335 /* UIColor-HSVAdditions.h */,
+				04899BBD15345AC700339335 /* UIColor-Expanded.h */,
+				04899BBE15345AC700339335 /* UIColor-Expanded.m */,
+				04899BB215345AA100339335 /* ColorSwatchView.h */,
+				04899BB315345AA100339335 /* ColorSwatchView.m */,
+				04899BB415345AA100339335 /* ColorPickerView.h */,
+				04899BB515345AA100339335 /* ColorPickerView.m */,
+				04899BB615345AA100339335 /* GradientView.h */,
+				04899BB715345AA100339335 /* GradientView.m */,
+				04899BC115345AF000339335 /* ColorPickerViewController.h */,
+				04899BC215345AF000339335 /* ColorPickerViewController.m */,
+				04899BC315345AF000339335 /* ColorPickerViewController.xib */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
+		04899BC615345B2E00339335 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				049E28601540386800BCCDE4 /* button_arrow.png */,
+				049E281B1540240200BCCDE4 /* img_bgFrame.png */,
+				048155C2153EDD2E009A2A4D /* btn_lightBlue.png */,
+				048155C0153EDD29009A2A4D /* btn_darkblue.png */,
+				04815585153EB80E009A2A4D /* drop-down.png */,
+				04899C1C153465DF00339335 /* btn_pickcolor_cancel.png */,
+				04899C1D153465DF00339335 /* btn_pickcolor_select.png */,
+				04899BC715345B3E00339335 /* bar_select.png */,
+				04899BC815345B3E00339335 /* crosshair.png */,
+				04899BC915345B3E00339335 /* colormap.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		048D2D10151095F4009ABE03 /* API_build */ = {
+			isa = PBXGroup;
+			children = (
+				048D2D11151095F4009ABE03 /* BumpAPI.h */,
+				048D2D12151095F4009ABE03 /* BumpAPIAssets.bundle */,
+				048D2D13151095F4009ABE03 /* BumpAPICustomUI.h */,
+				048D2D14151095F4009ABE03 /* Bumper.h */,
+				048D2D15151095FF009ABE03 /* libBumpAPI.a */,
+				048D2D16151095FF009ABE03 /* Localizations */,
+			);
+			path = API_build;
+			sourceTree = "<group>";
+		};
+		048D2D16151095FF009ABE03 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				048D2D17151095FF009ABE03 /* Localization-ReadMe.txt */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		048EBBEA1536A7EE0035C895 /* ResizeImage */ = {
+			isa = PBXGroup;
+			children = (
+				048EBC0B1536AF4D0035C895 /* UIImage+RoundedCorner.h */,
+				048EBC0C1536AF4D0035C895 /* UIImage+RoundedCorner.m */,
+				048EBC051536A8170035C895 /* UIImage+Alpha.h */,
+				048EBC061536A8170035C895 /* UIImage+Alpha.m */,
+				048EBC071536A8170035C895 /* UIImage+Resize.h */,
+				048EBC081536A8170035C895 /* UIImage+Resize.m */,
+			);
+			name = ResizeImage;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04832DA3153D60C700AADD2E /* Utility */,
+				048EBBEA1536A7EE0035C895 /* ResizeImage */,
+				04899B9B1534527D00339335 /* ColorPicker */,
+				1D3623240D0F684500981E51 /* CardSwapAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CardSwapAppDelegate.m */,
+				048D2B6815107B3D009ABE03 /* EditCardViewController.h */,
+				048D2B6915107B3D009ABE03 /* EditCardViewController.m */,
+				048D2C6D15109124009ABE03 /* HomeViewController.h */,
+				048D2C6E15109124009ABE03 /* HomeViewController.m */,
+				048D2D6E1510A4F5009ABE03 /* ViewCardViewController.h */,
+				048D2D6F1510A4F5009ABE03 /* ViewCardViewController.m */,
+				049235D5152EFBD9008E2E33 /* EditViewPositionController.h */,
+				049235D6152EFBD9008E2E33 /* EditViewPositionController.m */,
+				049235D7152EFBD9008E2E33 /* EditViewPositionController.xib */,
+				047F88B8153C4E0D007CDD2B /* SelectInfoController.h */,
+				047F88B9153C4E0D007CDD2B /* SelectInfoController.m */,
+				047F88BA153C4E0D007CDD2B /* SelectInfoController.xib */,
+				048CB8A6153D958A00A35791 /* SetInfoPropertiesController.h */,
+				048CB8A7153D958A00A35791 /* SetInfoPropertiesController.m */,
+				048CB8A8153D958A00A35791 /* SetInfoPropertiesController.xib */,
+				048CB8BC153D9D6600A35791 /* PropertiesViewController.h */,
+				048CB8BD153D9D6600A35791 /* PropertiesViewController.m */,
+				048CB8BE153D9D6600A35791 /* PropertiesViewController.xib */,
+				048CB904153DA7A300A35791 /* FontSelectionController.h */,
+				048CB905153DA7A300A35791 /* FontSelectionController.m */,
+				048CB906153DA7A300A35791 /* FontSelectionController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CardSwap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				04899C961534700700339335 /* CardsDetails.h */,
+				04899C971534700700339335 /* CardsDetails.m */,
+				048D2D10151095F4009ABE03 /* API_build */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				048D2D3C1510978C009ABE03 /* CoreLocation.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CardSwap_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04899BC615345B2E00339335 /* images */,
+				048D2E9F1510D25F009ABE03 /* button_black.png */,
+				048D2D701510A4F5009ABE03 /* ViewCardViewController.xib */,
+				048D2C6F15109124009ABE03 /* HomeViewController.xib */,
+				048D2B6C15107B61009ABE03 /* EditCardViewController.xib */,
+				2819305F112F816700ECF9B4 /* CardSwap.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CardSwap-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048D2CBD151093D2009ABE03 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				048D2CB9151093B5009ABE03 /* AudioToolbox.framework */,
+				048D2CDF151093FF009ABE03 /* libsqlite3.dylib */,
+				04B27FD91537075000B6C840 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CardSwap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CardSwap" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardSwap;
+			productName = CardSwap;
+			productReference = 1D6058910D05DD3D006BFB54 /* CardSwap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CardSwap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CardSwap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				048D2B6D15107B61009ABE03 /* EditCardViewController.xib in Resources */,
+				048D2C7115109124009ABE03 /* HomeViewController.xib in Resources */,
+				048D2D18151095FF009ABE03 /* BumpAPIAssets.bundle in Resources */,
+				048D2D1A151095FF009ABE03 /* Localization-ReadMe.txt in Resources */,
+				048D2D721510A4F5009ABE03 /* ViewCardViewController.xib in Resources */,
+				048D2EA01510D25F009ABE03 /* button_black.png in Resources */,
+				049235D9152EFBD9008E2E33 /* EditViewPositionController.xib in Resources */,
+				04899BC515345AF000339335 /* ColorPickerViewController.xib in Resources */,
+				04899BCA15345B3E00339335 /* bar_select.png in Resources */,
+				04899BCB15345B3E00339335 /* crosshair.png in Resources */,
+				04899BCC15345B3E00339335 /* colormap.png in Resources */,
+				04899C1E153465DF00339335 /* btn_pickcolor_cancel.png in Resources */,
+				04899C1F153465DF00339335 /* btn_pickcolor_select.png in Resources */,
+				047F88BC153C4E0D007CDD2B /* SelectInfoController.xib in Resources */,
+				048CB8AA153D958A00A35791 /* SetInfoPropertiesController.xib in Resources */,
+				048CB8C0153D9D6600A35791 /* PropertiesViewController.xib in Resources */,
+				048CB908153DA7A300A35791 /* FontSelectionController.xib in Resources */,
+				04815586153EB80E009A2A4D /* drop-down.png in Resources */,
+				048155C1153EDD29009A2A4D /* btn_darkblue.png in Resources */,
+				048155C3153EDD2E009A2A4D /* btn_lightBlue.png in Resources */,
+				049E281C1540240200BCCDE4 /* img_bgFrame.png in Resources */,
+				049E28611540386800BCCDE4 /* button_arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CardSwapAppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* CardSwap.xcdatamodeld in Sources */,
+				048D2B6A15107B3D009ABE03 /* EditCardViewController.m in Sources */,
+				048D2C7015109124009ABE03 /* HomeViewController.m in Sources */,
+				048D2D711510A4F5009ABE03 /* ViewCardViewController.m in Sources */,
+				0484FD911511E256003741BC /* CustomCellView.m in Sources */,
+				04CFF4B615248B6800C04874 /* DragLabel.m in Sources */,
+				049235D8152EFBD9008E2E33 /* EditViewPositionController.m in Sources */,
+				04899BB815345AA100339335 /* ColorSwatchView.m in Sources */,
+				04899BB915345AA100339335 /* ColorPickerView.m in Sources */,
+				04899BBA15345AA100339335 /* GradientView.m in Sources */,
+				04899BBF15345AC700339335 /* UIColor-HSVAdditions.m in Sources */,
+				04899BC015345AC700339335 /* UIColor-Expanded.m in Sources */,
+				04899BC415345AF000339335 /* ColorPickerViewController.m in Sources */,
+				04899C981534700700339335 /* CardsDetails.m in Sources */,
+				048EBC091536A8170035C895 /* UIImage+Alpha.m in Sources */,
+				048EBC0A1536A8170035C895 /* UIImage+Resize.m in Sources */,
+				048EBC0D1536AF4D0035C895 /* UIImage+RoundedCorner.m in Sources */,
+				047F88BB153C4E0D007CDD2B /* SelectInfoController.m in Sources */,
+				048CB893153D8E5000A35791 /* DragImageView.m in Sources */,
+				048CB8A9153D958A00A35791 /* SetInfoPropertiesController.m in Sources */,
+				048CB8BF153D9D6600A35791 /* PropertiesViewController.m in Sources */,
+				048CB907153DA7A300A35791 /* FontSelectionController.m in Sources */,
+				048E3C9A153FD55E0008C379 /* CustomSaveClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sanjay Sharma (48U7S2B5D9)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CardSwap_Prefix.pch;
+				INFOPLIST_FILE = "CardSwap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/API_build\"",
+				);
+				PRODUCT_NAME = CardSwap;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "103AF682-B1B9-4472-BBF4-EB90D301F286";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CardSwap_Prefix.pch;
+				INFOPLIST_FILE = "CardSwap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/API_build\"",
+				);
+				PRODUCT_NAME = CardSwap;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sanjay Sharma (48U7S2B5D9)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "103AF682-B1B9-4472-BBF4-EB90D301F286";
+				SDKROOT = iphoneos;
+				SYMROOT = ../cardswap_build;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CardSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CardSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* CardSwap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* CardSwap.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* CardSwap.xcdatamodel */;
+			path = CardSwap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
